@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+   
+    <title>Star Rating</title>
+  </head>
+  <body>
+    <div  class="container">
+      <h1>Star Rating Component</h1>
+      <div onclick="handleClick(event)" onmouseleave="removeColor()" onmousemove="handleFocus(event)" class="stars">
+        <span class="stars star1">&#9733;</span>
+        <span class="stars star2">&#9733;</span>
+        <span class="stars star3">&#9733;</span>
+        <span class="stars star4">&#9733;</span>
+        <span class="stars star5">&#9733;</span>
+      </div>
+      <span class="count"
+        >Rating Count :
+        <span class="countValue">Ratings display here</span>
+      </span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
